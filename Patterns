@@ -1,0 +1,273 @@
+class Main{
+	public static void main(String[] args) {
+		char i='A';
+		for (char j = 'A'; j <='E'; j++) {
+			for (char j2 = 'A'; j2 <= 'E'; j2++) {
+				System.out.print(j2);
+			}
+			System.out.println(' ');
+		}
+		System.out.println("----------------------");
+		
+		for (int j = 1; j <=5; j++) {
+			for (int j2 = 5; j2 >=j ; j2--) {
+				System.out.print('*');
+			}
+			System.out.println(' ');
+		}
+		System.out.println("----------------------");
+		
+		for (int j = 1; j <=5; j++) {
+			for (int j2 = 1; j2 <=j ; j2++) {
+				System.out.print('*');
+			}
+			System.out.println(' ');
+		}
+		System.out.println("----------------------");
+		for (int j = 0; j <5; j++) {
+			for (int j2 = 5; j2 > j ; j2--) {
+				System.out.print(' ');
+			}
+			for (int k = 0; k <=j; k++) {
+				System.out.print("* ");
+			}
+			System.out.println();
+		}
+		System.out.println("----------------------");
+		
+		for (int j = 1; j <=5; j++) {
+			for (int j2 = 1; j2 < j ; j2++) {
+				System.out.print(' ');
+			}
+			for (int j2 = j; j2 <=5; j2++) {
+				System.out.print(" *");
+			}
+			System.out.println();
+		}
+		System.out.println("----------------------");
+		for (int j = 5; j >=1; j--) {
+			for (int j2 = 5; j2 >j ; j2--) {
+				System.out.print(' ');
+			}
+			for (int k = 1; k <=j; k++) {
+				System.out.print('*');
+			}
+			System.out.println(' ');
+		}
+		System.out.println("----------------------");
+		for (int j = 0; j <=5; j++) {
+			for (int j2 = 5; j2 > j ; j2--) {
+			System.out.print(' ');
+		}
+		for (int k = 0; k <=j; k++) {
+		System.out.print("*");
+		}
+		System.out.println();
+		}
+		System.out.println("----------------------");
+		for (int j = 1; j <=5; j++) {
+			for (int j2 = 1; j2 <= 5; j2++) {
+				if (j==1||j==5||j2==1||j2==5) {
+					System.out.print('*');
+				} else {
+					System.out.print(" ");
+				}
+			}
+			System.out.println(" ");
+		}
+		System.out.println("----------------------");
+		
+		for (int j = 1; j <=5; j++) {
+			for (int j2 = 1; j2 <= 5; j2++) {
+				System.out.print('*');
+			}
+			System.out.println(' ');
+		}
+		System.out.println("----------------------");
+		for (int j = 1; j <=5; j++) {
+			for (int j2 = 1; j2 < j ; j2++) {
+				System.out.print(' ');
+			}
+			for (int j2 = j; j2 <=5; j2++) {
+				System.out.print(" *");
+			}
+			System.out.println();
+		}
+		System.out.println("----------------------");
+		for (int j = 5; j >=1; j--) {
+			for (int j2 = 1; j2 <=(5-j) ; j2++) {
+				System.out.print(' ');
+			}
+			for (int k = 1; k <=(2*j)-1; k++) {
+				if (k==1||k==(2*j)-1||j==5) {
+					System.out.print("*");
+				} else {
+					System.out.print(' ');
+				}
+
+				}
+			System.out.println(' ');
+		}
+		System.out.println("----------------------");
+		for (int j = 1; j <=5; j++) {
+			for (int j2 = 1; j2 <=(5-j) ; j2++) {
+				System.out.print(' ');
+			}
+			for (int k = 1; k <=(2*j)-1; k++) {
+				if (k==1||k==(2*j)-1||j==5) {
+					System.out.print("*");
+				} else {
+					System.out.print(' ');
+				}
+
+				}
+			System.out.println("");
+		}
+		System.out.println("----------------------");
+		for (int j = 1; j <=5; j++) {
+			for (int j2 = 1; j2 <=(5-j) ; j2++) {
+				System.out.print(' ');
+			}
+			for (int k = 1; k <=(2*j)-1; k++) {
+				if (k==1||k==(2*j)-1||j==5) {
+					System.out.print("*");
+				} else {
+					System.out.print(' ');
+				}
+
+				}
+			System.out.println("");
+		}
+		for (int j = 4; j >=1; j--) {
+			for (int j2 = 1; j2 <=(5-j) ; j2++) {
+				System.out.print(' ');
+			}
+			for (int k = 1; k <=(2*j)-1; k++) {
+				if (k==1||k==(2*j)-1) {
+					System.out.print("*");
+				} else {
+					System.out.print(' ');
+				}
+
+				}
+			System.out.println(' ');
+		}
+		System.out.println("----------------------");
+		for (int j = 5; j >=1; j--) {
+			for (int j2 = 5; j2 >j ; j2--) {
+				System.out.print(' ');
+			}
+			for (int k = 1; k <=j; k++) {
+			if (k==1||k==j||j==5) {
+				System.out.print('*');
+			} else {
+				System.out.print(" ");
+			}
+			}
+			System.out.println(' ');
+		}
+		System.out.println("----------------------");
+		for (int j = 1; j <=5; j++) {
+			for (int j2 = 5; j2 > j ; j2--) {
+			System.out.print(' ');
+		}
+		for (int k = 1; k <=j; k++) {
+			if (k==1||k==j||j==5) {
+				System.out.print('*');
+			} else {
+				System.out.print(" ");
+			}
+		}
+		System.out.println();
+		}
+		System.out.println("----------------------");
+		for (int j = 5; j >=1; j--) {
+			for (int j2 = 5; j2 >j ; j2--) {
+				System.out.print(' ');
+			}
+			for (int k = 1; k <=j; k++) {
+			if (k==1||k==j||j==5) {
+				System.out.print('*');
+			} else {
+				System.out.print(" ");
+			}
+			}
+			System.out.println(' ');
+		}
+		for (int j = 1; j <=5; j++) {
+			for (int j2 = 5; j2 > j ; j2--) {
+			System.out.print(' ');
+		}
+		for (int k = 1; k <=j; k++) {
+			if (k==1||k==j||j==5) {
+				System.out.print('*');
+			} else {
+				System.out.print(" ");
+			}
+		}
+		System.out.println();
+		}
+		System.out.println("----------------------");
+		for (int j = 1; j <=5; j++) {
+			for (int j2 = 5; j2 > j ; j2--) {
+			System.out.print(' ');
+		}
+		for (int k = 1; k <=j; k++) {
+			if (k==1||k==j) {
+				System.out.print('*');
+			} else {
+				System.out.print(" ");
+			}
+		}
+		System.out.println();
+		}
+		for (int j = 5; j >=1; j--) {
+			for (int j2 = 5; j2 >j ; j2--) {
+				System.out.print(' ');
+			}
+			for (int k = 1; k <=j; k++) {
+			if (k==1||k==j) {
+				System.out.print('*');
+			} else {
+				System.out.print(" ");
+			}
+			}
+			System.out.println(' ');
+		}
+System.out.println("----------------------");
+		
+		for (int j = 1; j <=5; j++) {
+			for (int j2 = 1; j2 <=j ; j2++) {
+				System.out.print("*");
+			}
+		
+		for (int l = 1; l <= 2*(5-j); l++) {
+		System.out.print(" ");	
+		}
+		
+		for (int k = 1; k <=j; k++) {
+		System.out.print("*");
+		}
+		System.out.println();
+		}
+		System.out.println("----------------------");
+		for (int j = 1; j <=5; j++) {
+			for (int j2 = 5; j2 >=j ; j2--) {
+				System.out.print('*');
+			}
+			System.out.println(' ');
+		}
+		for (int j = 0; j <=5; j++) {
+			for (int j2 = 5; j2 > j ; j2--) {
+			System.out.print(' ');
+		}
+		for (int k = 0; k <=j; k++) {
+		System.out.print("*");
+		}
+		System.out.println();
+		}
+		System.out.println("----------------------");
+	
+		
+	}
+}
